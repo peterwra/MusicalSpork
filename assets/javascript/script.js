@@ -56,7 +56,8 @@ var mm = {
 var yt = {
     getVideo: function (songTitle, artistName) {
         var URL = "https://www.googleapis.com/youtube/v3/search?part=snippet&maxResults=1&q=";
-        var key = "AIzaSyBen6lsX3OJs3NvGQZDEf0tDE_Omcp-N8U";
+        // var key = "AIzaSyBen6lsX3OJs3NvGQZDEf0tDE_Omcp-N8U";
+        var key = "AIzaSyDigbdaEWiFQN8Dvs6iWRYp5WEfRyT_-bU";
         var inbetweenUrl = "&type=video&videoSyndicated=true&videoEmbeddable=true&videoLicense=creativeCommon&key=";
         
         var songTitle = $(this).attr("data-songTitle");
